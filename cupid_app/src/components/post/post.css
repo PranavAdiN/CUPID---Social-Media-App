@@ -1,0 +1,138 @@
+.postContainer{
+    width: 80%;
+    padding: 5px 0;
+    box-shadow: 0 0 16px -8px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 0 0 16px -8px rgba(0,0,0,0.68);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.postUser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.moreButton{
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.post{
+    display: block;
+}
+
+.postDescribe{
+    margin: 10px;
+}
+
+.postImageContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postImage{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+.likeEffect{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    animation: fadein 600ms ease-in-out;
+}
+
+@keyframes fadein {
+    from {font-size: 20px;opacity: 1;}
+    to {font-size: 250px; opacity: 0;}
+}
+
+.postData{
+    width: 100%;
+    display: flex;
+    margin: 5px 0;
+}
+
+.postButton{
+    flex:4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.postComment{
+    flex: 8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.likeButton{
+    height: 32px;
+    margin: 5px 0;
+    margin-left: 24px;
+    margin-right: 8px;
+    color: red;
+    cursor: pointer;
+}
+
+.likes{
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+
+.comments{
+    margin-top: 1px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+    border-bottom: 1px dotted grey;
+    cursor: pointer;
+}
+
+.comments:hover{
+    border-bottom: 1px solid grey ;
+}
+
+.timestamp{
+    font-size: 15px;
+    color: gray;
+}
+
+.LikeWord{
+    margin: 0 5px;
+    display: inline;
+}
+
+@media screen and (max-width: 992px) {
+    .postContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .LikeWord{
+        display: none;
+    }
+}
+
+.CommentsContainer{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-top: 1px solid lightgrey;
+}
