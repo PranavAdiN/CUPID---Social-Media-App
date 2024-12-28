@@ -1,0 +1,28 @@
+
+.adBanner{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adImage{
+    margin:0;
+    padding: 0;
+    width: 85%;
+    border-radius: 10px;
+}
+.adLabel{
+    position: absolute;
+    right: 50px;
+    top: 0;
+    margin: 10px;
+    padding: 5px 15px;
+    width: fit-content;
+    background-color: rgb(240, 240, 31);
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+}
