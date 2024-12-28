@@ -1,0 +1,62 @@
+.SidebarContainer{
+    padding: 20px;
+    /* background-color: aqua; */
+    border-right: 1px solid lightgrey;
+    height: 100%;
+}
+
+.sidebarLinks{
+    padding: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    /* background-color: blue; */
+}
+
+.sidebarLinkItems{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: brown; */
+}
+
+.sidebarLinkItem{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 90%;
+    margin: 3px 0;
+    padding: 4px 0;
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+.sidebarLinkItem:hover{
+    font-weight: 500;
+}
+
+.linkIcon{
+    margin-right: 12px;
+    margin-top: 2px;
+    /* background-color: blue; */
+}
+
+
+.sidebarfollowers{
+    padding: 20px 0;
+    width: 100%;
+}
+
+.sidebarfollowersList{
+    list-style: none;
+    width: 90%;
+    /* background-color: aquamarine; */
+}
+
+.followerListItem{
+    margin: 4px 0;
+    padding: 4px 0;
+    width: 100%;
+    /* background-color: aqua; */
+}
