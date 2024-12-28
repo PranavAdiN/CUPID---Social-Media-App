@@ -1,0 +1,131 @@
+.rightBarContainer{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.AdContainer{
+    width: 100%;
+    height: 33%;
+    /* background-color: aqua; */
+    border-bottom: 1px solid lightgray;
+}
+
+.requestsList{
+    list-style: none;
+    /* background-color: aquamarine; */
+}
+
+.requestListItem{
+    margin: 4px 0;
+    padding: 4px 0;
+    /* background-color: aqua; */
+}
+
+.requestsContainer, .unreadMessagesContainer{
+    width: 100%;
+    height: 33%;
+    padding: 15px 20px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+}
+
+.requests{
+    /* background-color: aqua; */
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.requestContainer, .messageContainer{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    overflow: scroll;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.requestContainerLeft, .messageContainerLeft{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    margin: 0 10px;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.requestsContainerLabel{
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+    margin-bottom: 10px;
+}
+
+.requestOnlineBadge, .messageOnlineBadge{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 1px;
+    right: 6px;
+    z-index: 99;
+    background-color: rgb(0, 255, 0) ;
+}
+.requestUserImage, .messageUserImage{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin: 0;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.requestUserName, .messageUserName{
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+}
+.requestFriend{
+    margin-left: 2px;
+    width: 75%;
+    height: 20px;
+    /* background-color: lightblue; */
+    cursor: pointer;
+    border-radius: 4px;
+}
+.requestFriend span{
+    font-size: 11px;
+    text-transform: capitalize;
+    color: rgb(0, 119, 255);
+}
+
+.requestContainerRight ,.messageContainerRight{
+    width: 100%;
+    /* background-color: lightblue; */
+}
+.message{
+    margin-left: 0px;
+    width: 80%;
+    height: 20px;
+    /* background-color: blue; */
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.message span{
+    font-size: 13px;
+    color: rgb(0,0,0,0.5);
+}
